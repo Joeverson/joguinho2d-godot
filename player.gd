@@ -15,18 +15,24 @@ func get_input():
     velocity.y += GRAVITY
 	
     if Input.is_action_pressed('ui_right'):        
-        get_node("lion").set_flip_h(false)
+        $lion.flip_h(false)
+        $lion/AnimationPlayer.play('walking')
         velocity.x = SPEED
 		
     elif Input.is_action_pressed('ui_left'):
-        get_node("lion").set_flip_h(true)   
+        $lion.flip_h(true)   
+        $lion/AnimationPlayer.play('walking')
         velocity.x = -SPEED
     else:
 	    velocity.x = INITIAL_SPEED
+        $lion/AnimationPlayer.play('stop')
 
     if is_on_floor():
 	    if Input.is_action_pressed('ui_up'):
 		    velocity.y = JUMP_HEIGHT
+            $lion/AnimationPlayer.play('jump')
+    else:
+        $lion/AnimationPlayer.play('down')
 
     #velocity = velocity.normalized() * speed
 
