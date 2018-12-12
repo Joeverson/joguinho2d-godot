@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/wood-5.wav-df8a41fb15c929bb0433cf8f1c25e9e5.sample"
+
+[deps]
+
+source_file="res://prehistoric-platformer/sound/wood-5.wav"
+dest_files=[ "res://.import/wood-5.wav-df8a41fb15c929bb0433cf8f1c25e9e5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

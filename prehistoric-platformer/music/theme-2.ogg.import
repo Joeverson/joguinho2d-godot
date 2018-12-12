@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/theme-2.ogg-dcee9b9be584c410afc933dfe95a74ab.oggstr"
+
+[deps]
+
+source_file="res://prehistoric-platformer/music/theme-2.ogg"
+dest_files=[ "res://.import/theme-2.ogg-dcee9b9be584c410afc933dfe95a74ab.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

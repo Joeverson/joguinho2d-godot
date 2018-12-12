@@ -1,0 +1,322 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://tileset-1.png" type="Texture" id=1]
+
+[node name="maps" type="Node"]
+
+[node name="casa" type="Sprite" parent="." index="0"]
+
+position = Vector2( -833, 17 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 208, 128 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="oca" type="Sprite" parent="." index="1"]
+
+position = Vector2( -603, 21 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 208, 0, 144, 80 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="tower" type="Sprite" parent="." index="2"]
+
+position = Vector2( -609, 119 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 352, 0, 160, 128 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="escada" type="Sprite" parent="." index="3"]
+
+position = Vector2( -396, 65 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 736, 32, 32, 64 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama" type="Sprite" parent="." index="4"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 512, 224, 64, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama2" type="Sprite" parent="." index="5"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 352, 160, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama3" type="Sprite" parent="." index="6"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 320, 160, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama4" type="Sprite" parent="." index="7"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 288, 160, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama5" type="Sprite" parent="." index="8"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 256, 160, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama6" type="Sprite" parent="." index="9"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 208, 192, 32, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama7" type="Sprite" parent="." index="10"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 272, 192, 48, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama8" type="Sprite" parent="." index="11"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 320, 192, 32, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama9" type="Sprite" parent="." index="12"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 352, 192, 32, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama10" type="Sprite" parent="." index="13"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 416, 192, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama11" type="Sprite" parent="." index="14"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 448, 192, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama12" type="Sprite" parent="." index="15"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 464, 160, 160, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama13" type="Sprite" parent="." index="16"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 528, 144, 80, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama14" type="Sprite" parent="." index="17"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 624, 96, 112, 96 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama15" type="Sprite" parent="." index="18"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 784, 208, 80, 64 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama16" type="Sprite" parent="." index="19"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 592, 96, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama17" type="Sprite" parent="." index="20"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 592, 128, 16, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama18" type="Sprite" parent="." index="21"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 528, 96, 64, 48 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama19" type="Sprite" parent="." index="22"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 752, 272, 64, 48 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama20" type="Sprite" parent="." index="23"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 784, 272, 32, 48 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama21" type="Sprite" parent="." index="24"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 784, 288, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama22" type="Sprite" parent="." index="25"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 784, 320, 16, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama23" type="Sprite" parent="." index="26"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 752, 320, 48, 16 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama24" type="Sprite" parent="." index="27"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 160, 288, 64, 96 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama25" type="Sprite" parent="." index="28"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 176, 288, 48, 96 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama26" type="Sprite" parent="." index="29"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 224, 256, 32, 48 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama27" type="Sprite" parent="." index="30"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 256, 320, 64, 64 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama28" type="Sprite" parent="." index="31"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 256, 320, 64, 64 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama29" type="Sprite" parent="." index="32"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 192, 320, 32, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama30" type="Sprite" parent="." index="33"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 240, 304, 16, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+[node name="crama31" type="Sprite" parent="." index="34"]
+
+position = Vector2( -404, 178 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 240, 304, 16, 32 )
+_sections_unfolded = [ "Offset", "Region" ]
+
+
