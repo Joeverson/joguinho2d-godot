@@ -12,7 +12,12 @@ config_version=3
 
 config/name="New Game Project"
 run/main_scene="res://persona.tscn"
+boot_splash/image="res://sky-1.png"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "codeandweb.texturepacker" )
 
 [rendering]
 
